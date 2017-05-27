@@ -1,0 +1,264 @@
+@font-face {
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	background: #333333;
+	font-family: 'Raleway', sans-serif;
+	color: #ff1188;
+	overflow-x: hidden;
+}
+
+.modalHeader {
+	color: #ff1188;
+	background-color: #333;
+	border-bottom: 2pt solid #ff1188;
+	font-weight: bolder;
+	font-size: 26pt;
+	line-height:45pt;
+}
+
+.modalHeader button {
+	color: #ff1188;
+	opacity: 1;
+	text-shadow: 1px 1px 2px #333;
+	transition: all 0.5s;
+}
+
+.modal-footer button {
+	color: #ff1188;
+	opacity: 1;
+	border-color: #333;
+	text-shadow: 1px 1px 2px #333;
+	transition: all 0.5s;
+}
+
+.modal-body {
+	padding:0pt;
+	border-radius: 0pt;
+	background-color: #333;
+}
+
+.modalSection {
+	padding-top: 25pt;
+	box-shadow: inset 0 3pt 2pt rgba(0,0,0,.2);
+}
+
+.modalSection a {
+	font-weight: bolder;
+	font-size: 16pt;
+	color: #ff1188;
+	margin-left :10pt;
+	padding:10pt;
+	background-color: #333;
+	box-shadow: 0 2pt 3pt rgba(0,0,0,.5);
+	transition: all 0.6s;
+	border-radius: 3pt;
+	border-top: 1pt solid #555;
+}
+
+.modalSection a:hover {
+	text-decoration: none;
+	background-color: #ff1188;
+	color: #333;
+	border-top: 1pt solid #ff80bf;
+}
+
+.modalSection .imageContainer {
+	margin-top :15pt;
+}
+
+.modalSection .iframeContainer {
+	margin-top :15pt;
+}
+
+.modal-footer {
+	color: #fff;
+	background-color: #333;
+	border-top: 0pt solid #ff1188;
+}
+
+#contactDiv {
+	padding:0pt;
+	margin:10pt;
+	border-radius: 0pt;
+	box-shadow: 0 2pt 3pt rgba(0,0,0,.5);
+	background-color: #333;
+	border-bottom: 1pt solid #ff1188;
+}
+
+#contactDiv p {
+	padding:10pt;
+	color: #ff1188;
+	font-size: 12pt;
+}
+
+#contactLink {
+	padding-top: 20pt;
+	padding-bottom: 20pt;
+	text-align: center;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+}
+
+#contactLink a {
+	font-weight: bolder;
+	font-size: 16pt;
+	color: #ff1188;
+	padding:10pt;
+	background-color: #333;
+	box-shadow: 0 2pt 3pt rgba(0,0,0,.5);
+	transition: all 0.6s;
+	border-radius: 3pt;
+	border-top: 1pt solid #555;
+}
+
+#contactLink a:hover {
+	text-decoration: none;
+	background-color: #ff1188;
+	color: #333;
+	border-top: 1pt solid #ff80bf;
+}
+
+button:focus {
+	outline:0 !important;
+}
+
+a:focus {
+	outline:0 !important;
+}
+
+.footerShadow {
+	box-shadow: inset 0 3pt 2pt rgba(0,0,0,.2);
+	color: #555;
+}
+
+.footerShadow a {
+	color: #ff1188;
+	text-decoration: none;
+}
+
+.clickable {
+	transition: all 0.6s;
+}
+
+.clickable:hover {
+	transform: scale(1.05,1.05);
+}
+
+.padding0 {
+	padding:0pt;
+	float:none;
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:-4px;
+}
+
+.padding1 {
+	padding:0pt;
+	margin:10pt;
+	border-radius: 0pt;
+	box-shadow: 0 2pt 3pt rgba(0,0,0,.5);
+	background-color: #333;
+}
+
+.imageContainer {
+	padding:10pt;
+}
+
+.imageContainer img{
+	border: 2pt solid rgba(0,0,0,.5);
+	box-shadow: 5pt 5pt 0pt 5pt #333;
+}
+
+.rememberContainerOuter {
+	padding:10pt;
+}
+
+.rememberContainerInner {
+	box-shadow: 5pt 5pt 0pt 5pt #333;
+}
+
+.iframeContainer {
+	padding:10pt;
+	padding-bottom: 6pt;
+}
+
+.iframeContainer iframe {
+	border: 2pt solid rgba(0,0,0,.5);
+	box-shadow: 5pt 5pt 0pt 5pt #333;
+}
+
+.titleText {
+	font-weight: normal;
+	font-size: 18pt;
+	border-top: 1pt solid #555;
+	background-color: #333;
+	color: #ff1188;
+	padding-left: 5pt;
+	line-height: 30pt;
+	border-bottom: 1pt solid #ff1188;
+}
+
+#headerID {
+	color: #ff1188;
+	height: 50pt;
+	width: 100%;
+	background-color: #333;
+	border-bottom: 2pt solid #ff1188;
+	box-shadow: 0 2pt 3pt rgba(0,0,0,.5);
+	top: 0pt;
+	font-weight: normal;
+	font-size: 26pt;
+	line-height:45pt;
+	margin-bottom:20pt;
+}
+
+#headerID p {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+#headerID p + p {
+	text-align: left;
+	padding-left: 15px;
+	font-size: 18pt;
+}
+
+#shopLinkContainer {
+	text-align: right;
+}
+
+#shopLinkContainer > a {
+	margin: 0;
+	padding: 15px;
+	color: #ff1188;
+	text-decoration: none;
+	opacity: 1;
+	transition: all 0.4s;
+}
+
+#shopLinkContainer > a:hover {
+	opacity: 0.4;
+}
+
+#profileHeaderID {
+	height: 100%;
+	background-color: gray;
+	color: white;
+	text-align:center;
+}
+
+#profileID {
+	height: 100%;
+	background-color: white;
+	color: #333333;
+	text-align:center;
+}
+
+#contactLink {
+	font-weight: bolder;
+	font-size: 16pt;
+}
